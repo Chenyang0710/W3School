@@ -1,0 +1,172 @@
+/* 全局样式 */
+body{
+    color: #262626;
+}
+body,
+h1,
+h2,
+h3,
+ul,
+dl,
+dd{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+a{
+    color: #7b000b;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+    line-height:20px;
+}
+li:hover{
+    color: #fff;
+    background: #bebebe;
+}
+h2{
+    font-size: 22px;
+    color: #000;
+    /* padding-bottom: 5px; */
+    margin-bottom: 10px;
+}
+button{
+    width: 80px;
+    line-height: 20px;
+    border: 1px solid #d7d7d7;
+    background: #f0f0f0;
+    color: #505050;
+    margin:0 10px 10px;
+    outline: none;
+    cursor: pointer;
+}
+#head:after,
+#main:after,
+#content:after{
+    content: '';
+    display: block;
+    clear: both;
+    zoom: 1;
+}
+
+
+/* #wrapper */
+#wrapper{
+    margin: 0 auto;
+    width: 900px;
+    height: 100%;
+    border-right: 1px solid #d8d8d8;
+    border-left: 1px solid #d8d8d8;
+    padding: 0 10px;
+}
+
+/* head */
+.banner{
+    background: url(images/logo.gif) no-repeat #bebebe;
+    height: 90px;
+}
+.banner h1{
+    color: #fff;
+    font-size: 26px;
+    line-height: 80px;
+    margin-left: 30px;
+}
+#head ul{
+    margin-left: 30px;
+}
+#head li{
+    float: left;
+    margin: 10px 60px 10px 0;
+    color: #666;
+}
+#head li:hover{
+    background:none;
+    border-bottom: 2px solid #bd0004;
+}
+.nav01{
+    border-bottom: 2px solid #bd0004;
+}
+
+/* main样式 */
+#main{
+    margin-top: 20px;
+}
+
+/* main > sidebar样式 */
+#sidebar,
+#content{
+    float: left;
+    width: 180px;
+}
+.menu{
+    margin-bottom: 20px;
+}
+.menu h3{
+    background: #bebebe;
+    font-size: 16px;
+    color: #fff;
+    padding: 5px 10px;
+}
+.menu ul{
+    margin-top: 5px;
+}
+.menu li{
+    font-size: 12px;
+    padding: 5px 10px 5px;
+}
+.menu .submenu{
+    color: #fff;
+    background: #b50000;
+}
+
+/* main > content */
+#content{
+    width: 690px;
+    margin-left: 30px;
+}
+#content .btn{
+    padding-top: 10px;;
+    border-top: 1px solid #9a9a9a;
+    border-bottom: 2px solid #9a9a9a;
+}
+#content dl{
+    margin: 15px 5px 10px 0;
+    border-bottom: 1px dashed #9a9a9a;
+    padding-bottom: 10px;
+}
+#content dt{
+    font-weight: bold;
+    font-size: 15px;
+}
+#content dd{
+    margin: 10px 0;
+    font-size: 15px;
+    line-height: 25px;
+}
+#content h3{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#content .history{
+    border: none;
+    padding-bottom: 0;
+}
+#content .btn_bottom{
+    margin-top: 15px;
+}
+#content .message{
+    display: block;
+    margin-top:20px;
+    font-size: 14px;
+    color: #999;
+}
+#footer{
+    margin: 10px 0;
+    background: #d5d5d5;
+    line-height: 60px;
+    font-size: 14px;
+    text-align: center;
+    color: #666;
+}
